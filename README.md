@@ -1,6 +1,12 @@
 # Girls Protection Oversea Site
 Currently going over upgrade and redesign. Target Deadline: Nov 1st 2020.
 
+# Demo 
+* <https://www.nvtongbh.org>
+* <https://www.nvtongbh.com>
+* <https://merakiyu/github.io/Girls-Protection>
+
+
 #### Gulp Tasks
 
 * `gulp` the default task that builds everything
