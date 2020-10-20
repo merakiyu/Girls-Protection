@@ -43,6 +43,13 @@
   }
 }
 
+
+a { outline: none; text-decoration: none; }
+a:hover { border-bottom: none; }
+a.official-site { color: #ffffff; }
+a.donate-text { color: #ffffff; font-size: 1.2rem; }
+.logo { border-radius: 5px; height: 284px; width: 284px; margin-bottom: 1rem; }
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;

@@ -26,18 +26,6 @@ h6 {
   font-weight: 700;
 }
 
-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
-}
-
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
@@ -57,6 +45,11 @@ video {
   background-color: #cd9557;
   opacity: 0.7;
   z-index: 1;
+}
+
+.bg-mockup {
+  height: 100%;
+  width: 100%;
 }
 
 .masthead {
@@ -104,6 +97,31 @@ video {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 1rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+a.official-site {
+  color: #ffffff;
+}
+
+a.donate-text {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.logo {
+  border-radius: 5px;
+  height: 284px;
+  width: 284px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
