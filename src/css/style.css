@@ -6,10 +6,13 @@ body {
     text-rendering: optimizeLegibility;
     font-size: 22px;
     overflow-x: hidden;
+    --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-family: sans-serif;
+  line-height: 1.15;
 }
 
 .clearfix {zoom: 1;}
@@ -60,6 +63,10 @@ header {
   height: auto;
 }
 
+.photo-row img{
+  width: 100%;
+  height: auto;
+}
 .chinese-copy {
   font-size: 20px;
 }
